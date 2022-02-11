@@ -10,8 +10,12 @@ namespace LineCompareProblem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the Line Compare Problems");
-            Console.ReadKey();
+           
+            LineCompare line1 = new LineCompare(3, 5, 4, 5);
+            line1.CalculateLength();
+            LineCompare line2 = new LineCompare(1, 2, 4, 5);
+            line2.CalculateLength();
+            Console.ReadLine();
         }
     }
 }
